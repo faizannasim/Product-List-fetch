@@ -5,7 +5,7 @@ import UserData from "./component/Userdata";
 
 const API = "https://dummyjson.com/products";
 
-const App = () => {
+const App = () => { 
   const [users, setUsers] = useState([]);
 
   const fetchUsers = async (url) => {
